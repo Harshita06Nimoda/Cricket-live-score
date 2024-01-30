@@ -1,0 +1,31 @@
+.outer-div{
+    display: flex;
+    flex-wrap: wrap;
+    gap:10px;
+    /* justify-content: center; */
+    /* margin-left:5px; */
+    width:100vw;
+    /* background-color: rgb(114, 106, 106); */
+}
+.match-type{
+    width:20px;
+    background-color: rgb(19, 165, 148);
+    border-radius: 20px;
+}
+.cric-score {
+    width:500px;
+    height:480px;
+    border-radius:2px;
+    /* background-color:rgba(0, 0, 0, 0.935); */
+    box-shadow: 5px 5px 10px 0px rgba(1, 1, 1, 0.5);
+    color:black;
+    font-size: 21px;
+    /* background-color: rgb(209, 221, 109); */
+}
+.cric-score table{
+    border-collapse: separate;
+    border-spacing:10px;
+}
+.cric-score td{
+    padding:10px;
+}
